@@ -240,7 +240,7 @@ export default function Home() {
                   <li>iSIM醫學模擬教育師資培訓 講師</li>
                   <li>臺北醫學大學傷害防治學研究所 碩士</li>
                 </ul>
-                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> 重大殊榮</h4>
+                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> 獲獎殊榮</h4>
                 <ul className="member-list">
                   <li>111~113學年度 北醫附醫團隊教學創新金獎</li>
                 </ul>
