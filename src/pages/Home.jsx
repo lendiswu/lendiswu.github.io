@@ -124,7 +124,7 @@ export default function Home() {
             <div className="team-card glass-card hover-lift">
               <div className="card-header">
                 <div className="avatar" style={{ overflow: 'hidden' }}>
-                  <img src="/dr_wu_profile.jpg" alt="吳人傑 醫師" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="/dr_wu_profile.jpg" alt="吳人傑 醫師" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
                 </div>
                 <div>
                   <h3 className="member-name">吳人傑 醫師</h3>
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="team-card glass-card hover-lift">
               <div className="card-header">
                 <div className="avatar" style={{ overflow: 'hidden' }}>
-                  <img src="/haoyu_profile.jpg" alt="陳皓羽" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="/haoyu_profile.jpg" alt="陳皓羽" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
                 </div>
                 <div>
                   <h3 className="member-name">陳皓羽</h3>
@@ -174,7 +174,7 @@ export default function Home() {
             <div className="team-card glass-card hover-lift">
               <div className="card-header">
                 <div className="avatar" style={{ overflow: 'hidden' }}>
-                  <img src="/hongzhen_profile.jpeg" alt="陳虹蓁" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="/hongzhen_profile.jpeg" alt="陳虹蓁" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
                 </div>
                 <div>
                   <h3 className="member-name">陳虹蓁</h3>
@@ -195,7 +195,7 @@ export default function Home() {
             <div className="team-card glass-card hover-lift">
               <div className="card-header">
                 <div className="avatar" style={{ overflow: 'hidden' }}>
-                  <img src="/duan_profile.jpeg" alt="段月婷 專科護理師" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="/duan_profile.jpeg" alt="段月婷 專科護理師" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
                 </div>
                 <div>
                   <h3 className="member-name">段月婷</h3>
@@ -224,7 +224,7 @@ export default function Home() {
             <div className="team-card glass-card hover-lift">
               <div className="card-header">
                 <div className="avatar" style={{ overflow: 'hidden' }}>
-                  <img src="/xu_profile.jpg" alt="徐逸庭 專科護理師" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="/xu_profile.jpg" alt="徐逸庭 專科護理師" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
                 </div>
                 <div>
                   <h3 className="member-name">徐逸庭</h3>
@@ -251,7 +251,7 @@ export default function Home() {
             <div className="team-card glass-card hover-lift">
               <div className="card-header">
                 <div className="avatar" style={{ overflow: 'hidden' }}>
-                  <img src="/tsai_profile.jpeg" alt="蔡鴻維 醫師" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="/tsai_profile.jpeg" alt="蔡鴻維 醫師" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
                 </div>
                 <div>
                   <h3 className="member-name">蔡鴻維 醫師</h3>
