@@ -150,13 +150,47 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Placeholder for other members */}
-            <div className="team-card glass-card hover-lift empty-state">
-              <div className="avatar bg-gray-200">
-                <UserCheck size={40} className="text-gray-400" />
+            {/* Team Member: 陳皓羽 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/haoyu_profile.jpg" alt="陳皓羽" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">陳皓羽</h3>
+                  <p className="member-title">醫學模擬教育副主任 / 標準化病人首席訓練師</p>
+                </div>
               </div>
-              <h3 className="member-name mt-4 text-gray-500">更多團隊成員</h3>
-              <p className="text-gray-400 text-center mt-2">（照片建立中...）<br/>包含護理師、專科護理師、<br/>模擬教師以及大學教職人員</p>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> 現職與經歷</h4>
+                <ul className="member-list">
+                  <li>臺北醫學大學醫學模擬教育中心 <b>副主任</b></li>
+                  <li>臺北醫學大學醫學模擬教育中心 標準化病人首席訓練師</li>
+                  <li>國北護醫護教育暨數位學習系所 實習指導老師</li>
+                  <li>台灣標準化病人協會 第六屆理事</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Team Member: 陳虹蓁 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/hongzhen_profile.jpeg" alt="陳虹蓁" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">陳虹蓁</h3>
+                  <p className="member-title">醫學模擬教育管理員 / 標準化病人訓練師</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> 現職與經歷</h4>
+                <ul className="member-list">
+                  <li>臺北醫學大學醫學模擬教育中心 <b>管理員</b></li>
+                  <li>臺北醫學大學醫學模擬教育中心 標準化病人訓練師</li>
+                  <li>台灣標準化病人協會 理事</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
