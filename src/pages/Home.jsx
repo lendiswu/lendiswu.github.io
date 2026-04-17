@@ -190,6 +190,83 @@ export default function Home() {
                 </ul>
               </div>
             </div>
+
+            {/* Team Member: 段月婷 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/duan_profile.jpeg" alt="段月婷 專科護理師" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">段月婷</h3>
+                  <p className="member-title">急診專科護理師 / 模擬教學專家</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> 現職與經歷</h4>
+                <ul className="member-list">
+                  <li>臺北醫學大學附設醫院急診 <b>專科護理師</b></li>
+                  <li>聯委會高級心臟救命術指導員</li>
+                  <li>曾任外科加護病房暨燒燙傷加護病房護理師</li>
+                  <li>臺北醫學大學護理學系 學士</li>
+                </ul>
+                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> 獲獎殊榮</h4>
+                <ul className="member-list">
+                  <li>2025年 台灣急診醫學會 <b>十大優秀急診護理師</b></li>
+                  <li>111~113學年度 北醫附醫團隊教學創新金獎</li>
+                  <li>2023年 NHQA 國家醫療品質獎 擬真情境類急重症照護組獲佳作</li>
+                  <li>2022、2026年 北醫附醫優良專科護理師</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Team Member: 徐逸庭 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/xu_profile.jpg" alt="徐逸庭 專科護理師" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">徐逸庭</h3>
+                  <p className="member-title">急診專科護理師 / 模擬醫學核心教師</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> 現職與經歷</h4>
+                <ul className="member-list">
+                  <li>臺北醫學大學附設醫院急診 <b>專科護理師</b></li>
+                  <li>臺北醫學大學醫學模擬教育中心 <b>核心教師</b></li>
+                  <li>臺北醫學大學臨床專業技能課程 教師</li>
+                  <li>iSIM醫學模擬教育師資培訓 講師</li>
+                  <li>臺北醫學大學傷害防治學研究所 碩士</li>
+                </ul>
+                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> 重大殊榮</h4>
+                <ul className="member-list">
+                  <li>111~113學年度 北醫附醫團隊教學創新金獎</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Team Member: 蔡鴻維 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/tsai_profile.jpeg" alt="蔡鴻維 醫師" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">蔡鴻維 醫師</h3>
+                  <p className="member-title">急診主治醫師 / 醫學教育專任講師</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> 現職與經歷</h4>
+                <ul className="member-list">
+                  <li>臺北醫學大學附設醫院 <b>急診主治醫師</b></li>
+                  <li>臺北醫學大學醫學院醫學系醫學教育暨人文學科 <b>專任講師</b></li>
+                  <li>臺北醫學大學醫學系 學士</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
