@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import SpeakUpResearch from './pages/SpeakUpResearch';
 import SimulationResearch from './pages/SimulationResearch';
@@ -14,13 +14,13 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/research/speak-up" element={<SpeakUpResearch />} />
         <Route path="/research/simulation" element={<SimulationResearch />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
