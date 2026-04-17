@@ -144,9 +144,7 @@ export default function Home() {
                 <div className="honor-badge">
                   <span>🏆 2025年國科會 吳大猷先生紀念獎（醫學教育學門）</span>
                 </div>
-                <div className="honor-badge">
-                  <span>🥇 111~113學年度 北醫附醫團隊教學創新金獎</span>
-                </div>
+
               </div>
             </div>
 
