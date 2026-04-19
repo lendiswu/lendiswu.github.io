@@ -38,13 +38,16 @@ export default function Home() {
             <span className="text-teal font-bold text-2xl">GET</span>
             <span className="text-gray-800 font-semibold ml-2">Team</span>
           </div>
-          <div className="nav-links">
-            <button onClick={() => scrollTo('vision')}>{t('nav.vision')}</button>
-            <button onClick={() => scrollTo('team')}>{t('nav.team')}</button>
-            <button onClick={() => scrollTo('research')}>{t('nav.research')}</button>
-            <button onClick={() => scrollTo('projects')}>{t('nav.project')}</button>
-            <button onClick={() => scrollTo('contact')} className="btn-primary" style={{ padding: '8px 24px' }}>{t('nav.contact')}</button>
-            <button onClick={toggleLanguage} className="btn-outline" style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '6px 12px' }}>
+          <div className="flex items-center gap-4" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <div className="nav-links">
+              <button onClick={() => scrollTo('vision')}>{t('nav.vision')}</button>
+              <button onClick={() => scrollTo('team')}>{t('nav.team')}</button>
+              <button onClick={() => scrollTo('research')}>{t('nav.research')}</button>
+              <button onClick={() => scrollTo('projects')}>{t('nav.project')}</button>
+              <button onClick={() => scrollTo('contact')} className="btn-primary" style={{ padding: '8px 24px' }}>{t('nav.contact')}</button>
+            </div>
+            {/* Language Switcher (Always visible) */}
+            <button onClick={toggleLanguage} className="btn-outline" style={{ display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 12px', fontSize: '0.9rem' }}>
               <Globe size={16} /> EN / 中文
             </button>
           </div>
