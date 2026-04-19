@@ -261,7 +261,7 @@ export default function Home() {
             <div className="team-card glass-card hover-lift">
               <div className="card-header">
                 <div className="avatar" style={{ overflow: 'hidden' }}>
-                  <img src="/huiwen_image1.jpg" alt={t('home.team.chenHw.name')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 15%' }} />
+                  <img src="/huiwen_image1.jpg" alt={t('home.team.chenHw.name')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 30%' }} />
                 </div>
                 <div>
                   <h3 className="member-name">{t('home.team.chenHw.name')}</h3>
