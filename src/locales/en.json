@@ -167,6 +167,36 @@
           "Core Faculty, Center for Medical Simulation, TMU",
           "Nurse Practitioner & RN, Dept. of Emergency & Critical Care Medicine, TMUH"
         ]
+      },
+      "xuMW": {
+        "name": "Min-Wen Hsu",
+        "title": "Emergency RN / Clinical Skills Instructor",
+        "exp": [
+          "Emergency Room RN, TMU Hospital",
+          "Instructor of Clinical Skills Course, TMU",
+          "M.S., School of Nursing (Maternal & Child Health), TMU",
+          "B.S., Dept. of Nursing, CGUST"
+        ],
+        "honor": [
+          "111-113 Academic Year TMUH Team Teaching Innovation Gold Award",
+          "111 Academic Year TMUH Medical Innovation Proposal Competition - Honorable Mention",
+          "111 Academic Year TMUH Outstanding Nursing Staff"
+        ]
+      },
+      "huang": {
+        "name": "Chao-Chun Huang",
+        "title": "Occupational Health RN / Clinical Skills Instructor",
+        "exp": [
+          "Occupational Health and Safety RN, Hsiao Chung-Cheng Hospital",
+          "Instructor of Clinical Skills Course, TMU",
+          "Former Emergency Room RN, TMU Hospital",
+          "Former COVID-19 Epidemic Care RN, Taipei City",
+          "B.S., School of Nursing, TMU"
+        ],
+        "honor": [
+          "111-112 Academic Year TMUH Team Teaching Innovation Gold Award",
+          "2023 Educational Game Design Award - Gamified Instruction Design Silver Award"
+        ]
       }
     },
     "expLabel": "Current Role & Experience",

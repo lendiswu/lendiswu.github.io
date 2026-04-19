@@ -276,6 +276,52 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Team Member: 徐旻妏 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/xuMW_profile.jpg" alt={t('home.team.xuMW.name')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">{t('home.team.xuMW.name')}</h3>
+                  <p className="member-title">{t('home.team.xuMW.title')}</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                <ul className="member-list">
+                  {t('home.team.xuMW.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                </ul>
+                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                <ul className="member-list">
+                  {t('home.team.xuMW.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                </ul>
+              </div>
+            </div>
+
+            {/* Team Member: 黃昭淳 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/huang_profile.jpg" alt={t('home.team.huang.name')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">{t('home.team.huang.name')}</h3>
+                  <p className="member-title">{t('home.team.huang.title')}</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                <ul className="member-list">
+                  {t('home.team.huang.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                </ul>
+                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                <ul className="member-list">
+                  {t('home.team.huang.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
