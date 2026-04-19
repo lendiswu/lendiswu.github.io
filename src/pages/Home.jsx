@@ -77,6 +77,9 @@ export default function Home() {
               <button onClick={() => scrollTo('research')} className="btn-outline">
                 {t('home.btnExplore')}
               </button>
+              <button onClick={() => scrollTo('projects')} className="btn-outline" style={{ borderColor: 'var(--color-primary)', color: 'var(--color-primary-dark)' }}>
+                {t('home.btnProjects')}
+              </button>
             </div>
           </div>
           <div className="hero-visual">
