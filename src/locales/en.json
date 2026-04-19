@@ -156,6 +156,17 @@
           "Lecturer, Medical Humanities and Education, TMU",
           "M.D., Taipei Medical University"
         ]
+      },
+      "chenHw": {
+        "name": "Hui-Wen Chen",
+        "title": "Assistant Professor of Nursing / Core Faculty of Simulation",
+        "exp": [
+          "Assistant Professor, School of Nursing, TMU",
+          "Ph.D. / Postdoctoral Researcher, School of Nursing, NYCU",
+          "M.S., Graduate Institute of Injury Prevention and Control, TMU",
+          "Core Faculty, Center for Medical Simulation, TMU",
+          "Nurse Practitioner & RN, Dept. of Emergency & Critical Care Medicine, TMUH"
+        ]
       }
     },
     "expLabel": "Current Role & Experience",

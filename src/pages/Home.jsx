@@ -257,6 +257,25 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Team Member: 陳惠雯 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/huiwen_image1.jpg" alt={t('home.team.chenHw.name')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">{t('home.team.chenHw.name')}</h3>
+                  <p className="member-title">{t('home.team.chenHw.title')}</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                <ul className="member-list">
+                  {t('home.team.chenHw.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
