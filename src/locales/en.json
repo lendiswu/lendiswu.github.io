@@ -1,0 +1,270 @@
+{
+  "nav": {
+    "home": "Home",
+    "project": "Projects",
+    "team": "Our Team",
+    "research": "Research",
+    "vision": "Vision",
+    "contact": "Contact Us"
+  },
+  "vh": {
+    "title": "TMU Virtual Hospital",
+    "subtitle": "Reconstructing Learning for the Future of Healthcare",
+    "enTitle": "Reconstructing Learning for the Future of Healthcare",
+    "desc": "Mastering Technology, Practicing Heart-Centered Care",
+    "sec1": {
+      "title": "Why Do We Need a Virtual Hospital?",
+      "card1Title": "Clinical Shock",
+      "card1Desc": "Uncertainty during transition and \"decision paralysis\" when facing real patients often prevent students from applying their knowledge seamlessly in clinical settings.",
+      "card2Title": "The Paradox of Physical Simulation",
+      "card2Desc": "High costs, space limitations, and demanding faculty-to-student ratios deprive the vast majority of students of large-scale \"deliberate practice\" opportunities.",
+      "card3Title": "Early Responsibility & Empowerment",
+      "card3Desc": "Exposing trainees early to the healthcare environment allows them to safely take charge, empowering them to experience the consequences of their clinical decisions.",
+      "card4Title": "Optimizing Resources for the New Era",
+      "card4Desc": "We reserve the highly expensive physical simulation center (SBL) for the most critical clinical integration, leaving 80% of routine decision-making practice to the Virtual Hospital."
+    },
+    "sec2": {
+      "title": "Safe, Repeatable, and Highly Integrated Ecosystem",
+      "card1Title": "Realistic Healthcare Information System (HIS)",
+      "card1Desc": "Transitioning from mere \"case discussion\" to authentic \"decision responsibility.\" Includes deciphering chaotic medical records, interpreting data correctly, and logically placing medical orders.",
+      "card2Title": "Virtual Patients",
+      "card2Desc": "A risk-free communication lab where trainees practice history taking, shared decision making (SDM), and managing high-emotion scenarios like breaking bad news.",
+      "card3Title": "Immersive Reality (VR & XR)",
+      "card3Desc": "Practicing physical exams and procedural steps in an immersive space to build precise procedural intuition and interprofessional team collaboration."
+    },
+    "sec3": {
+      "pastBadge": "Past Model",
+      "pastTitle": "Knowledge Learner",
+      "pastQuote": "\"I am learning from the care.\"",
+      "pastDesc": "Passively absorbing the \"correct\" answers and waiting to be assessed. Observing in a protected environment as an \"object\" within the medical scenario.",
+      "nowBadge": "The Paradigm Shift",
+      "nowTitle": "Clinical Agent",
+      "nowQuote": "\"I am participating in the care.\"",
+      "nowDesc": "Actively enacting decisions and taking responsibility within the system. Figuring out how to communicate with patients and coordinate with the team to solve real problems."
+    },
+    "sec4": {
+      "title": "In Practice: Example (3-Week Integrated CBL Path)",
+      "desc": "An example workflow of integrating the Virtual Hospital system into Case-Based Learning (CBL)",
+      "w1Badge": "Week 1 • Information Gathering & Hypothesis",
+      "w1Title": "Virtual Patient Interview Practice",
+      "w1L1": "Introduction to patient appearance and chief complaint, followed by interviewing the virtual patient.",
+      "w1L2": "Reviewing physical examination findings provided by the system.",
+      "w1L3": "Group discussion on initial differential diagnoses and further necessary history taking.",
+      "w1Task": "🌟 Assignment: Complete an Admission Note and gather related background knowledge.",
+      "w2Badge": "Week 2 • Decision Making & Workup Plan",
+      "w2Title": "Ordering Tests & Doctor-Patient Communication",
+      "w2L1": "Presenting the initial differential diagnosis and explaining the plan to the virtual patient.",
+      "w2L2": "Placing lab and imaging orders within the virtual system.",
+      "w2L3": "Comparing their orders with system records to identify discrepancies in real-world feasibility.",
+      "w2Task": "🌟 Assignment: Formulate an Evidence-Based Medicine (EBM) question using the PICO framework regarding the diagnostic/treatment plan.",
+      "w3Badge": "Week 3 • Validation & Treatment Strategy",
+      "w3Title": "Medical Ordering & Goal Setting",
+      "w3L1": "Presenting EBM assignment findings to the class.",
+      "w3L2": "Using the One-Page system to place relevant medical treatment orders.",
+      "w3L3": "Establishing final treatment strategies/goals and learning how to monitor therapeutic efficacy."
+    },
+    "sec5": {
+      "title": "Embracing the New Normal of Human-AI Collaboration",
+      "card1Title": "Deliberate Practice in a Safe Haven",
+      "card1Desc": "Providing a zero-risk environment that allows trainees to repeatedly perform high-quality drills in decision-making, procedures, and teamwork.",
+      "card2Title": "Preparing for Future Paradigms",
+      "card2Desc": "Beyond just learning a tool, it's about familiarizing students early with a collaborative care model deeply integrated with AI systems and digital platforms.",
+      "card3Title": "Identity and Values at the Core",
+      "card3Desc": "Technology is only the medium. Ultimately, designing learning experiences that foster empathy and trust remains the true boundary of medical education."
+    }
+  },
+  "home": {
+    "heroBadge": "Growing and Empowering Together Medical Education & Research Team",
+    "heroTitle1": "Cultivating Innovation and Excellence",
+    "heroTitle2": "in Medical Education",
+    "heroSub": "We are dedicated to producing highly impactful educational activities and deeply exploring learners' journeys, leading healthcare quality improvement through educational innovation.",
+    "btnMore": "Learn More",
+    "btnExplore": "Explore Research",
+    "stat1": "International Publications",
+    "stat2": "Interprofessional Fields",
+    "visionTitle": "Our Vision",
+    "visionDesc": "We are an interprofessional team passionate about medical education and research, bringing together physicians, nurses, nurse practitioners, simulation educators, and university faculty.\n\nWe firmly believe that the integration of diverse professions brings unique perspectives. Together, we commit to developing meaningful educational activities and profoundly understanding the learning process, using educational innovation to drive excellence in healthcare quality.",
+    "teamTitle": "Our Team",
+    "teamSub": "Combining diverse clinical and educational expertise to build a strong research force.",
+    "team": {
+      "wu": {
+        "name": "Dr. Jen-Chieh (Roger) Wu",
+        "title": "Medical Educator / Attending Emergency Physician",
+        "exp": [
+          "Attending Emergency Physician, Taipei Medical University Hospital",
+          "Director, Center for Clinical Skills / Deputy Director, Center for Medical Simulation, TMU",
+          "Assistant Professor, Medical Humanities and Education, TMU",
+          "WISER Research Fellow, Pittsburgh, USA",
+          "Certified Healthcare Simulation Educator (CHSE), SSH"
+        ],
+        "honor": "🏆 2025 Ta-You Wu Memorial Award (Medical Education), NSTC"
+      },
+      "chenH": {
+        "name": "Hao-Yu Chen",
+        "title": "Deputy Director of Medical Simulation / Lead Standardized Patient Trainer",
+        "exp": [
+          "Deputy Director, Center for Medical Simulation, TMU",
+          "Lead Standardized Patient Trainer, TMU",
+          "Practicum Instructor, NTUNHS",
+          "6th Board Member, Association of Standardized Patients, Taiwan"
+        ]
+      },
+      "chenHz": {
+        "name": "Hung-Chen Chen",
+        "title": "Simulation Administrator / Standardized Patient Trainer",
+        "exp": [
+          "Administrator, Center for Medical Simulation, TMU",
+          "Standardized Patient Trainer, TMU",
+          "Board Member, Association of Standardized Patients, Taiwan"
+        ]
+      },
+      "duan": {
+        "name": "Yueh-Ting Duan",
+        "title": "Emergency Nurse Practitioner / Simulation Expert",
+        "exp": [
+          "Emergency Nurse Practitioner, Taipei Medical University Hospital",
+          "ACLS Instructor, Joint Commission",
+          "Former SICU & Burn ICU Nurse",
+          "B.S. in Nursing, TMU"
+        ],
+        "honor": [
+          "2025 Top 10 Outstanding Emergency Nurses, TSEMM",
+          "2022-2024 TMUH Team Teaching Innovation Gold Award",
+          "2023 NHQA National Healthcare Quality Award (Simulation Category) Excellence",
+          "2022, 2026 Outstanding Nurse Practitioner, TMUH"
+        ]
+      },
+      "xu": {
+        "name": "Yi-Ting Hsu",
+        "title": "Emergency Nurse Practitioner / Core Faculty of Simulation",
+        "exp": [
+          "Emergency Nurse Practitioner, Taipei Medical University Hospital",
+          "Core Faculty, Center for Medical Simulation, TMU",
+          "Instructor, Clinical Professional Skills Courses, TMU",
+          "iSIM Educator Training Instructor",
+          "M.S., Graduate Institute of Injury Prevention and Control, TMU"
+        ],
+        "honor": [
+          "2022-2024 TMUH Team Teaching Innovation Gold Award"
+        ]
+      },
+      "tsai": {
+        "name": "Dr. Hung-Wei Tsai",
+        "title": "Attending Emergency Physician / Lecturer",
+        "exp": [
+          "Attending Emergency Physician, Taipei Medical University Hospital",
+          "Lecturer, Medical Humanities and Education, TMU",
+          "M.D., Taipei Medical University"
+        ]
+      }
+    },
+    "expLabel": "Current Role & Experience",
+    "honorLabel": "Major Honors",
+    "awardLabel": "Awards",
+    "researchTitle": "Research Areas & Outputs",
+    "researchDesc": "Click to explore our research roadmap and article abstracts.",
+    "r1Title": "Speak Up Behavior Research",
+    "r1Desc": "Exploring and improving the 'speaking up' behavior of medical students and professionals when facing medical errors.",
+    "r2Title": "Simulation & Teamwork Research",
+    "r2Desc": "Focusing on developing and validating Interprofessional Education (IPE) simulation models and evaluating different teaching interventions.",
+    "pTitle": "Ongoing Projects",
+    "pDesc": "Core educational and clinical initiatives currently driven by our team.",
+    "p1Title": "TMU Virtual Hospital",
+    "p1Desc": "Reconstructing medical learning through a highly integrated educational ecosystem tailored to cultivate clinical reasoning under uncertainty.",
+    "btnView": "View Research Roadmap",
+    "btnViewP": "View Project Details",
+    "contactTitle": "Contact Us",
+    "contactDesc": "Interested in our research? Or looking for academic and educational collaborations?\nReach out to the GET Team via the options below.",
+    "footer": "© 2026 GET (Growing and Empowering Together) Medical Education & Research Team. All rights reserved."
+  },
+  "speakup": {
+    "title": "Speak Up Behavior Series Research",
+    "desc": "Building a safe healthcare environment starts with courageous speaking up. This research series aims to uncover the truth behind clinical silence and find evidence-based keys to behavior change.",
+    "roadmapTitle": "Research Roadmap & Blueprint",
+    "p1Year": "2021-2022 • Exploration Phase",
+    "p1Title": "Clarifying Barriers and Exploring Personalized Training",
+    "p1Desc": "Initial identification of factors affecting medical students' speaking-up behaviors and validation of the primary outcomes of Personalized Training.",
+    "p2Year": "2023-2024 • Validation & Translation Phase",
+    "p2Title": "Interprofessional Integration & Simulation Deepening",
+    "p2Desc": "Built a solid foundation through systematic reviews in nursing, proving that 'simulation + personalized debriefing' effectively translates into increased willingness and skills for pointing out errors.",
+    "p3Year": "2025 • In-depth Reflection Phase",
+    "p3Title": "Decoding the Silence & Longitudinal Trends",
+    "p3Desc": "Analyzed the phenomenon of 'future doctors becoming increasingly silent' and summarized the deep psychological and systemic drivers and barriers.",
+    "articleTitle": "Key Literature Analysis (Chronological, newest on top)",
+    "a1Title": "The Silence of Future Doctors: Empirical Study on the Declining Trend of Speaking-Up",
+    "a1Sub": "Future doctors silence: An empirical study of declining speaking-up behavior among medical students",
+    "a1MsgTitle": "Core Message",
+    "a1Msg": "Over time, the probability of the new generation choosing 'silence' in the face of errors is rising. This is a critical warning sign for medical education systems.",
+    "a1SumTitle": "Key Summary",
+    "a1Sum": "Through longitudinal analysis, this study confirms a declining trend in overall speaking-up behavior, sounding the alarm that medical education must urgently intervene.",
+    "a2Title": "Breaking the Silence: Revealing Drivers and Barriers",
+    "a2Sub": "Breaking the silence: Revealing drivers and barriers to medical students speaking up",
+    "a2MsgTitle": "Core Message",
+    "a2Msg": "Speaking up is not just about personal courage; it is heavily influenced by systemic barriers such as psychological safety, hierarchical pressure, and self-efficacy.",
+    "a2SumTitle": "Key Summary",
+    "a2Sum": "This study established a core map of speaking-up resistance and driving forces, detailing the obstacles that prevent medical students from speaking up on the front lines.",
+    "a3Title": "Transforming Behavior: The Impact of Simulation and Personalized Debriefing",
+    "a3Sub": "Transforming medical students speaking-up behaviors in medical errors: The impact of simulation and personalized debriefing",
+    "a3MsgTitle": "Core Message",
+    "a3Msg": "Personalized debriefing is substantially more effective at transforming behavioral patterns than general group teaching.",
+    "a3SumTitle": "Key Summary",
+    "a3Sum": "Students receiving customized, one-on-one discussion after simulated errors showed a significant increase in speaking-up frequency and communication clarity during subsequent challenges.",
+    "a4Title": "Systematic Review and Meta-Analysis of Nurses' Speaking Up Behaviors",
+    "a4Sub": "ACT nursing SR meta",
+    "a4MsgTitle": "Core Message",
+    "a4Msg": "Synthesizing global nursing research to deduce common patterns and challenges when nursing teams take action to maintain patient safety.",
+    "a4SumTitle": "Key Summary",
+    "a4Sum": "A large-scale Systematic Review and Meta-Analysis exploring whether educational interventions (like Assertive Communication Training) can stably improve clinical confidence and attitudes.",
+    "a5Title": "Exploration of Students' Reactions and Impact of Personalized Training",
+    "a5Sub": "Exploration of students reaction in medical error events and the impact of personalized training on the speaking up behavior in medical error events",
+    "a5MsgTitle": "Core Message",
+    "a5Msg": "During their first encounter with real medical errors, students' truest reaction is often shock and hesitation. Targeted training provides them with a framework for action.",
+    "a5SumTitle": "Key Summary",
+    "a5Sum": "An exploratory study that deeply recreates the stress loop of students at the scene of an error, proving that a single, high-intensity personalized session helps them take the first step in breaking the silence.",
+    "a6Title": "Factors Associated with Medical Students Speaking Up",
+    "a6Sub": "Factors associated with medical students speaking up about medical errors",
+    "a6MsgTitle": "Core Message",
+    "a6Msg": "Laying the foundation for the Speak Up series, clearly pointing out the initial suppressive power of hierarchical culture on the willingness to communicate.",
+    "a6SumTitle": "Key Summary",
+    "a6Sum": "A foundational assessment analyzing how variables like gender, seniority, and prior clinical experience directly and indirectly determine whether a medical student is willing to step forward."
+  },
+  "simulation": {
+    "title": "Simulation & Teamwork Series Research",
+    "desc": "There are no perfect individuals, only perfect teams. This series focuses on validating and developing innovative simulation teaching models to enhance the collaborative efficacy of interprofessional teams in clinical resuscitation and patient care.",
+    "roadmapTitle": "Research Roadmap & Blueprint",
+    "p1Year": "2022 • Model Comparison & Validation Phase",
+    "p1Title": "Interprofessional vs Single-Professional & Virtual Simulation",
+    "p1Desc": "Using mixed methods to compare the differences between traditional single-profession simulation and interprofessional education (IPE) simulation, and further exploring the boundaries of standardized IPE (SIPE) vs. virtual IPE (VIPE).",
+    "p2Year": "2025 • Long-term Retention Phase",
+    "p2Title": "Booster Workshops & Low Dose Simulation",
+    "p2Desc": "Moving beyond one-time assessments, we explored whether combining 'Low Dose Simulation' with a 'Booster Workshop' effectively maintains team memory and cohesion.",
+    "p3Year": "2026 • Real-world Translation Phase",
+    "p3Title": "Resuscitation Efficacy Translation for Novice Nurses and Residents",
+    "p3Desc": "Bringing diverse interprofessional teaching methods to the frontlines of real-world healthcare setup, directly benchmarking their objective team performance during high-stakes resuscitation.",
+    "articleTitle": "Key Literature Analysis (Chronological, newest on top)",
+    "a1Title": "Impact of Different Teaching Modalities on Resuscitation Team Performance of Novice Nurses and Residents",
+    "a1Sub": "Comparing teaching methods on novice nurses' and medical residents' resuscitation teamwork knowledge and team performance",
+    "a1MsgTitle": "Core Message",
+    "a1Msg": "For early-career medical professionals, early intervention with high-intensity realistic team training is the clearest path to building cross-disciplinary trust and operational capabilities.",
+    "a1SumTitle": "Key Summary",
+    "a1Sum": "This upcoming study specifically targets PGY physicians and first-year nurses, randomly comparing the impact of different teaching methods on their objective scores in 'team knowledge' and 'team performance' when facing ACES resuscitation challenges.",
+    "a2Title": "Driving Low-Dose Simulation: Exploring the Booster Workshop",
+    "a2Sub": "Exploring booster workshop to regular low dose sim",
+    "a2MsgTitle": "Core Message",
+    "a2Msg": "While learning decays over time, adopting a two-pronged approach of 'low-dose practice' plus a 'booster workshop' can successfully break the forgetting curve.",
+    "a2SumTitle": "Key Summary",
+    "a2Sum": "We introduced high-frequency, short-duration Low Dose Simulation, followed by a Booster Workshop at the three-month degradation point. Results demonstrated that this model creates exceptional skill retention rates.",
+    "a3Title": "Standardized Physical Simulation vs Virtual Interprofessional Experience",
+    "a3Sub": "SIPE vs VIPE",
+    "a3MsgTitle": "Core Message",
+    "a3Msg": "Virtual VIPE breaks spatial constraints and can match traditional physical simulation on specific cognitive attributes, though practical execution still has boundaries.",
+    "a3SumTitle": "Key Summary",
+    "a3Sum": "Compared Standardized Interprofessional Education (SIPE) physically to Virtual Interprofessional Education (VIPE) online. Analyzed how these two pathways strike a balance between cost-effectiveness and realism.",
+    "a4Title": "Comparing Learning Outcomes: Interprofessional vs Single-Profession Simulation",
+    "a4Sub": "Comparison of learning outcomes of interprofessional education simulation with traditional single-profession education simulation - a mixed-methods study",
+    "a4MsgTitle": "Core Message",
+    "a4Msg": "Grouping physicians and nurses together for team-based learning (IPE) not only boosts team cohesion but directly elevates diagnostic accuracy during crisis management.",
+    "a4SumTitle": "Key Summary",
+    "a4Sum": "Through objective scoring contrast and focus interviews, results showed that interdisciplinary IPE groups made breakthrough progress over isolated single-disciplinary groups in 'resuscitation resource allocation' and 'closed-loop communication'."
+  }
+}

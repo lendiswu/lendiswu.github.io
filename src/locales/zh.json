@@ -1,0 +1,270 @@
+{
+  "nav": {
+    "home": "回到首頁",
+    "project": "專案專區",
+    "team": "團隊成員",
+    "research": "研究領域",
+    "vision": "團隊願景",
+    "contact": "聯絡我們"
+  },
+  "vh": {
+    "title": "北醫大虛擬醫院建構",
+    "subtitle": "重構未來的醫療學習",
+    "enTitle": "Reconstructing Learning for the Future of Healthcare",
+    "desc": "精通科技，實踐以心為本的照護 (Mastering Technology, Practicing Heart-Centered Care)",
+    "sec1": {
+      "title": "為什麼我們需要虛擬醫院？",
+      "card1Title": "教育與臨床的斷層 (Clinical Shock)",
+      "card1Desc": "學生在轉換過程中的不確定性，以及面對真實病人的決策癱瘓，導致無法順利將所學知識應用於臨床情境。",
+      "card2Title": "傳統模擬教育的資源困境",
+      "card2Desc": "高成本、空間場域限制、師生比門檻高等因素，導致多數學生缺乏大量的「刻意練習」機會。",
+      "card3Title": "提前負責與賦能",
+      "card3Desc": "提前讓學員暴露醫療照護環境中，使他們能夠在安全狀態下提前負責及賦能，積累承擔決策後果的經驗。",
+      "card4Title": "新時代的資源最佳化解方",
+      "card4Desc": "將昂貴的實體模擬中心 (SBL) 保留給最關鍵的臨床整合，而將 80% 的常態化決策練習交由虛擬醫院完成。"
+    },
+    "sec2": {
+      "title": "安全、可重複、高度整合的臨床學習生態系",
+      "card1Title": "擬真醫療資訊系統 (HIS)",
+      "card1Desc": "從單純的「案例討論」轉向真實的「決策負責」。包含學習梳理混亂病歷、正確查閱數據，以及開立具備邏輯的醫令。",
+      "card2Title": "虛擬病人 (Virtual Patients)",
+      "card2Desc": "無風險的溝通同理實驗室，學員能夠練習問診、病史搜集、共享決策 (SDM) 及面對壞消息告知的高張力應對。",
+      "card3Title": "擴增實境 (VR & XR)",
+      "card3Desc": "在沉浸式空間中練習理學檢查、處置程序，建立精準的程序化直覺與跨領域團隊的協作默契。"
+    },
+    "sec3": {
+      "pastBadge": "過去模式",
+      "pastTitle": "知識學習者",
+      "pastQuote": "\"I am learning from the care.\"",
+      "pastDesc": "被動吸收正確答案，等待被考核。在受保護的環境下觀察，身分為醫療場景中的「客體」。",
+      "nowBadge": "現在的翻轉",
+      "nowTitle": "臨床代理人",
+      "nowQuote": "\"I am participating the care.\"",
+      "nowDesc": "主動代理決策，在系統中承擔責任。思考如何與病人溝通、與團隊協調，從參與中學習解決問題。"
+    },
+    "sec4": {
+      "title": "落地課程『範例』 (3-Week Integrated CBL Path)",
+      "desc": "虛擬醫院系統導入 CBL (Case-Based Learning) 課程流程範例",
+      "w1Badge": "Week 1 • 資訊搜集與假設",
+      "w1Title": "虛擬病人問診練習",
+      "w1L1": "簡介病人樣貌及主訴，進行虛擬病人問診。",
+      "w1L2": "觀看系統提供的身體檢查訊息。",
+      "w1L3": "小組討論初步鑑別診斷與後續該詢問的病史。",
+      "w1Task": "🌟 回家作業：完成 Admission Note，蒐集背景知識。",
+      "w2Badge": "Week 2 • 決策與檢驗計畫",
+      "w2Title": "開立檢查與醫病溝通",
+      "w2L1": "報告初步鑑別診斷，並向虛擬病人解釋診斷與後續安排。",
+      "w2L2": "在虛擬系統中開立檢驗與檢查選項。",
+      "w2L3": "對照系統紀錄，檢視與實際開立項目的落差。",
+      "w2Task": "🌟 回家作業：針對檢查及治療設計 PICO 原則，形成實證醫學議題。",
+      "w3Badge": "Week 3 • 驗證與方針建立",
+      "w3Title": "醫令開立與治療目標設定",
+      "w3L1": "上台報告 EBM (實證醫學) 作業內容。",
+      "w3L2": "操作 One Page 系統開立相關治療醫屬。",
+      "w3L3": "建立最終治療方針與目標，並學習如何確認治療成效。"
+    },
+    "sec5": {
+      "title": "迎向人機協作的新常態",
+      "card1Title": "安全支持下的刻意練習",
+      "card1Desc": "提供零風險的避風港，讓學員在決策、處置與團隊合作中反覆進行高品質的演練。",
+      "card2Title": "提早為未來模式準備",
+      "card2Desc": "不只是工具學習，更是提早熟悉與 AI 系統、數位平台深度共存的「人機協作」照護模式。",
+      "card3Title": "價值認同為核心",
+      "card3Desc": "科技僅是手段。打造出能發揮同理心與建立信任的學習體驗，才是醫療教育真正的核心與邊界。"
+    }
+  },
+  "home": {
+    "heroBadge": "Growing and Empowering Together 醫學教育與研究團隊",
+    "heroTitle1": "推動醫學教育的",
+    "heroTitle2": "創新與卓越",
+    "heroSub": "我們致力於產出具深遠意義的教學活動，並深入探索學員的學習歷程，以教育創新引領醫療品質提升。",
+    "btnMore": "了解更多",
+    "btnExplore": "探索研究產出",
+    "stat1": "國際期刊發表",
+    "stat2": "跨領域團隊領域",
+    "visionTitle": "團隊願景",
+    "visionDesc": "我們是一群對醫學教育與研究充滿熱忱的跨專業團隊，匯聚了醫師、護理師、專科護理師、模擬教師與大學教職人員。\n\n我們深信多元專業的交融能帶來獨特的視角，共同致力於發展具備深遠意義的教學活動，並深入探索學員的學習歷程，以教育的創新引領醫療品質的卓越提升。",
+    "teamTitle": "團隊成員",
+    "teamSub": "結合多元臨床與教育專業，打造堅強的研究陣容",
+    "team": {
+      "wu": {
+        "name": "吳人傑 醫師",
+        "title": "醫學教育學者 / 急診主治醫師",
+        "exp": [
+          "臺北醫學大學附設醫院 急診主治醫師",
+          "教學部臨床技能中心主任 / 醫學模擬教育中心副主任",
+          "臺北醫學大學 醫學教育暨人文學科 助理教授",
+          "美國匹茲堡 WISER Research Fellow",
+          "美國模擬醫學會(SSH)認證模擬教師(CHSE)"
+        ],
+        "honor": "🏆 2025年國科會 吳大猷先生紀念獎（醫學教育學門）"
+      },
+      "chenH": {
+        "name": "陳皓羽",
+        "title": "醫學模擬教育副主任 / 標準化病人首席訓練師",
+        "exp": [
+          "臺北醫學大學醫學模擬教育中心 副主任",
+          "臺北醫學大學醫學模擬教育中心 標準化病人首席訓練師",
+          "國北護醫護教育暨數位學習系所 實習指導老師",
+          "台灣標準化病人協會 第六屆理事"
+        ]
+      },
+      "chenHz": {
+        "name": "陳虹蓁",
+        "title": "醫學模擬教育管理員 / 標準化病人訓練師",
+        "exp": [
+          "臺北醫學大學醫學模擬教育中心 管理員",
+          "臺北醫學大學醫學模擬教育中心 標準化病人訓練師",
+          "台灣標準化病人協會 理事"
+        ]
+      },
+      "duan": {
+        "name": "段月婷",
+        "title": "急診專科護理師 / 模擬教學專家",
+        "exp": [
+          "臺北醫學大學附設醫院急診 專科護理師",
+          "聯委會高級心臟救命術指導員",
+          "曾任外科加護病房暨燒燙傷加護病房護理師",
+          "臺北醫學大學護理學系 學士"
+        ],
+        "honor": [
+          "2025年 台灣急診醫學會 十大優秀急診護理師",
+          "111~113學年度 北醫附醫團隊教學創新金獎",
+          "2023年 NHQA 國家醫療品質獎 擬真情境類急重症照護組獲佳作",
+          "2022、2026年 北醫附醫優良專科護理師"
+        ]
+      },
+      "xu": {
+        "name": "徐逸庭",
+        "title": "急診專科護理師 / 模擬醫學核心教師",
+        "exp": [
+          "臺北醫學大學附設醫院急診 專科護理師",
+          "臺北醫學大學醫學模擬教育中心 核心教師",
+          "臺北醫學大學臨床專業技能課程 教師",
+          "iSIM醫學模擬教育師資培訓 講師",
+          "臺北醫學大學傷害防治學研究所 碩士"
+        ],
+        "honor": [
+          "111~113學年度 北醫附醫團隊教學創新金獎"
+        ]
+      },
+      "tsai": {
+        "name": "蔡鴻維 醫師",
+        "title": "急診主治醫師 / 醫學教育專任講師",
+        "exp": [
+          "臺北醫學大學附設醫院 急診主治醫師",
+          "臺北醫學大學醫學院醫學系醫學教育暨人文學科 專任講師",
+          "臺北醫學大學醫學系 學士"
+        ]
+      }
+    },
+    "expLabel": "現職與經歷",
+    "honorLabel": "重大殊榮",
+    "awardLabel": "獲獎殊榮",
+    "researchTitle": "研究領域與產出",
+    "researchDesc": "點擊進入觀看系列研究脈絡與文章摘要",
+    "r1Title": "Speak Up 發聲行為研究",
+    "r1Desc": "探討與改善醫學生及醫療人員在面對醫療錯誤時的「發聲行為 (Speak-Up)」。",
+    "r2Title": "臨床模擬與團隊研究",
+    "r2Desc": "專注開發與驗證跨領域團隊（IPE）的模擬教學模式，探討不同教學介入的成效。",
+    "pTitle": "進行中專案專區",
+    "pDesc": "目前團隊正在推動的核心教育與臨床專案",
+    "p1Title": "Virtual Hospital 虛擬醫院建構",
+    "p1Desc": "重構未來的醫療學習，透過高度整合的教育生態系，培養學生面對不確定性的決策能力。",
+    "btnView": "查看系列研究脈絡",
+    "btnViewP": "查看專案內容",
+    "contactTitle": "聯絡我們",
+    "contactDesc": "對我們的研究計畫有興趣？或期望進行學術與教學合作？\n歡迎透過下方資訊與 GET 團隊取得聯繫。",
+    "footer": "© 2026 GET (Growing and Empowering Together) Medical Education & Research Team. All rights reserved."
+  },
+  "speakup": {
+    "title": "Speak Up 發聲行為系列研究",
+    "desc": "建立安全的醫療環境，從勇敢發聲開始。本系列研究致力於揭開醫療場域中「不敢說」的真相，並透過實證找出改變行為的關鍵解方。",
+    "roadmapTitle": "研究脈絡與藍圖",
+    "p1Year": "2021-2022 • 探索期",
+    "p1Title": "釐清障礙與個人化訓練初探",
+    "p1Desc": "初步發掘影響醫學生發聲的相關因素，並驗證個人化訓練（Personalized Training）的初步成效與學員反應。",
+    "p2Year": "2023-2024 • 實證與轉化期",
+    "p2Title": "跨專業整合與模擬訓練深化",
+    "p2Desc": "透過護理領域的系統性文獻回顧建立堅實基礎，並證明了「模擬情境 + 個人化回饋」能有效轉換並提升醫學生指出醫療錯誤的意願及技巧。",
+    "p3Year": "2025 • 深入反思期",
+    "p3Title": "破解沈默密碼與長期趨勢",
+    "p3Desc": "針對「未來醫師越來越沉默」的下降趨勢進行現象剖析，並統整出驅動與阻礙發聲的深層心理與系統環境因素。",
+    "articleTitle": "重點文獻解析 (依時序，最新在最上方)",
+    "a1Title": "未來醫師的沉默：發聲行為下降趨勢實證研究",
+    "a1Sub": "Future doctors silence: An empirical study of declining speaking-up behavior among medical students",
+    "a1MsgTitle": "核心訊息",
+    "a1Msg": "隨著時代演進，新生代醫護人員在面對醫療錯誤時選擇「沉默」的機率正在攀升。這是一個需要醫療教育系統高度關注的警訊。",
+    "a1SumTitle": "重點內容摘要",
+    "a1Sum": "本研究跨年度分析醫學生在遇到醫療危機時的反應，證實了整體發聲行為的滑落趨勢，敲響了醫學教育必須加速介入與改革的警鐘。",
+    "a2Title": "打破沉默：揭露醫學生發聲的驅力與障礙",
+    "a2Sub": "Breaking the silence: Revealing drivers and barriers to medical students speaking up",
+    "a2MsgTitle": "核心訊息",
+    "a2Msg": "發聲不僅是個人勇氣的展現，更高度受到心理安全感、層級文化壓力與自我效能等系統性障礙影響。",
+    "a2SumTitle": "重點內容摘要",
+    "a2Sum": "透過深度分析，本研究建立了一份發聲阻力與驅力的核心地圖。詳細列出了在臨床最前線阻擋醫學生發聲的各種障礙因素，以及能賦權給他們的關鍵驅動力。",
+    "a3Title": "轉化發聲行為：模擬與個人化回饋的強大影響",
+    "a3Sub": "Transforming medical students speaking-up behaviors in medical errors: The impact of simulation and personalized debriefing",
+    "a3MsgTitle": "核心訊息",
+    "a3Msg": "「針對個體表現的回饋 (Personalized debriefing)」比「一般性群體教學」更能實質轉化行為模式。",
+    "a3SumTitle": "重點內容摘要",
+    "a3Sum": "實驗組學生在面臨模擬醫療錯誤後，接受了專屬的個人化討論。後續追蹤證實，他們再面臨挑戰時，不僅發聲頻率大幅增加，溝通清晰度也顯著提升。",
+    "a4Title": "護理人員發聲行為之系統性文獻回顧與統合分析 (ACT nursing SR meta)",
+    "a4Sub": "ACT nursing SR meta",
+    "a4MsgTitle": "核心訊息",
+    "a4Msg": "統整全球護理領域研究，歸納出護理團隊在維護病人安全時採取發聲行動的共通模式與挑戰。",
+    "a4SumTitle": "重點內容摘要",
+    "a4Sum": "本篇為大規模的 Systematic Review 與 Meta-Analysis。探討教學介入 (ACT - Assertive Communication Training 等) 是否能穩定改善護理人員在臨床上的自信、態度與行為轉換。",
+    "a5Title": "醫學生的現場反應探索及個人化訓練的成效評估",
+    "a5Sub": "Exploration of students reaction in medical error events and the impact of personalized training on the speaking up behavior in medical error events",
+    "a5MsgTitle": "核心訊息",
+    "a5Msg": "當第一次親臨醫療錯誤情境時，學員最真實的反應往往是錯愕與猶豫。個人化的針對性訓練能賦予他們行動的框架。",
+    "a5SumTitle": "重點內容摘要",
+    "a5Sum": "透過探索性研究深入還原醫學生在犯錯現場的壓力迴圈，並實證單次且高強度的個人化溝通指引，能幫助他們踏出打破沉默的第一步。",
+    "a6Title": "影響醫學生對醫療錯誤發聲之前導因素研究",
+    "a6Sub": "Factors associated with medical students speaking up about medical errors",
+    "a6MsgTitle": "核心訊息",
+    "a6Msg": "建立後續一系列 Speak Up 研究的基礎，明確指出了階級文化對溝通意願的初期抑制力。",
+    "a6SumTitle": "重點內容摘要",
+    "a6Sum": "這是一份奠基型的評估報告。分析了性別、年級、以往臨床經驗等變項，如何直接與間接地決定一個醫學生在目睹不安全行為時，是否願意挺身而出。"
+  },
+  "simulation": {
+    "title": "臨床模擬與團隊合作系列研究",
+    "desc": "沒有完美的個人，只有完美的團隊。本系列專注於驗證與開發創新的模擬教學模式，提升跨領域團隊在臨床急救與照護上的合作效能。",
+    "roadmapTitle": "研究脈絡與藍圖",
+    "p1Year": "2022 • 教學模式比較與驗證期",
+    "p1Title": "跨專業 vs. 單一專業與虛擬教學",
+    "p1Desc": "運用混合研究方法比較傳統單一專業模擬與跨專業領域模擬 (IPE) 的差異，並進一步探討標準化跨專業 (SIPE) 與虛擬跨專業演練 (VIPE) 的成效界線。",
+    "p2Year": "2025 • 維持長期成效期",
+    "p2Title": "強化工作坊與微劑量模擬學習",
+    "p2Desc": "不再只做一次性大考驗，我們探索了「正規微劑量模擬 (Low Dose Simulation)」搭配外加「強化工作坊 (Booster Workshop)」是否能有效保持團隊記憶與默契。",
+    "p3Year": "2026 • 實戰轉化期",
+    "p3Title": "新手護理師與住院醫師的急救效能轉化",
+    "p3Desc": "將不同的跨界教學方法導入真實的最前線醫療陣容，直接評比他們在承受高壓急救時的客觀表現 (Team Performance)。",
+    "articleTitle": "重點文獻解析 (依時序，最新在最上方)",
+    "a1Title": "比較不同教學法對新手護士與住院醫師急救團隊表現之影響",
+    "a1Sub": "Comparing teaching methods on novice nurses' and medical residents' resuscitation teamwork knowledge and team performance",
+    "a1MsgTitle": "核心訊息",
+    "a1Msg": "針對職涯早期的醫療人員，及早介入高強度的仿真團隊訓練是建立跨專業信任與實戰力最明確的方法。",
+    "a1SumTitle": "重點內容摘要",
+    "a1Sum": "這份即將發表的最新研究，直接鎖定剛入職的 PGY 醫師與第一年護理師，以隨機分佈方式比較不同的教學法對他們面臨 ACES 急救挑戰時，在「團隊知識」與「團隊操作表現」上的客觀成績差異。",
+    "a2Title": "微劑量模擬學習的強力推手：強化工作坊探究",
+    "a2Sub": "Exploring booster workshop to regular low dose sim",
+    "a2MsgTitle": "核心訊息",
+    "a2Msg": "學習效應會隨時間遞減，但運用「微劑量演練」與「強化工作坊」的雙管齊下可以打破知識的遺忘曲線。",
+    "a2SumTitle": "重點內容摘要",
+    "a2Sum": "我們導入了高頻率但短時間的微劑量學習 (Low Dose Simulation)，並在三個月後的遺忘點提供統整式強化工作坊 (Booster Workshop)。結果證實這套「少吃多餐再總複習」的模型，有效創造了超常的技能保留率。",
+    "a3Title": "標準化實體演練 vs. 虛擬跨專業模擬體驗 (SIPE vs VIPE)",
+    "a3Sub": "SIPE vs VIPE",
+    "a3MsgTitle": "核心訊息",
+    "a3Msg": "突破空間與疫情藩籬的 VIPE 虛擬學習，在特定認知屬性上能追平傳統實體演練，但實務操作仍有其界線。",
+    "a3SumTitle": "重點內容摘要",
+    "a3Sum": "比較了實體跨專業演練 (SIPE) 與線上虛擬跨領域演練 (VIPE)。分析了這兩種教學途徑如何在成本效益與訓練真實感中取得平衡。",
+    "a4Title": "跨領域模擬與單一專業模擬之學習成效比較 – 混合研究方法",
+    "a4Sub": "Comparison of learning outcomes of interprofessional education simulation with traditional single-profession education simulation - a mixed-methods study",
+    "a4MsgTitle": "核心訊息",
+    "a4Msg": "把「醫師與護理師放在一起組隊學習（IPE）」不僅能增強向心力，更能直接拉抬危機處理的準確率。",
+    "a4SumTitle": "重點內容摘要",
+    "a4Sum": "透過客觀成績對比與焦點訪談，結果顯示 IPE 跨科小組比起獨自分離上課的單科小組，在「急救資源分配」、「任務指派溝通閉環」上有著突破性的進展。"
+  }
+}
