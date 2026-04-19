@@ -17,7 +17,6 @@ export default function SpeakUpResearch() {
           <Link to="/" className="text-gray-600 hover:text-teal font-semibold flex items-center gap-2" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
             <ArrowLeft size={20} /> {t('nav.home')}
           </Link>
-          <div className="text-teal font-bold text-xl">{t('nav.project')}</div>
           {/* Language Switcher */}
           <button onClick={toggleLanguage} className="btn-outline" style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '6px 12px' }}>
             <Globe size={16} /> EN / 中文
