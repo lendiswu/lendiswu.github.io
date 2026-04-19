@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, ArrowRight, UserCheck, Stethoscope, ChevronDown, GraduationCap, Award } from 'lucide-react';
+import { Mail, ArrowRight, UserCheck, Stethoscope, ChevronDown, GraduationCap, Award, Building } from 'lucide-react';
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,6 +36,7 @@ export default function Home() {
             <button onClick={() => scrollTo('vision')}>團隊願景</button>
             <button onClick={() => scrollTo('team')}>團隊成員</button>
             <button onClick={() => scrollTo('research')}>研究領域</button>
+            <button onClick={() => scrollTo('projects')}>專案專區</button>
             <button onClick={() => scrollTo('contact')} className="btn-primary">聯絡我們</button>
           </div>
         </div>
@@ -309,6 +310,34 @@ export default function Home() {
                 </p>
                 <div className="research-actions mt-4 text-teal font-semibold flex-center gap-1">
                   查看系列研究脈絡 <ArrowRight size={16} />
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="section">
+        <div className="container">
+          <div className="section-header text-center">
+            <h2 className="section-title">進行中專案專區</h2>
+            <div className="title-underline mx-auto"></div>
+            <p className="section-desc">目前團隊正在推動的核心教育與臨床專案</p>
+          </div>
+
+          <div className="research-grid">
+            <Link to="/projects/virtual-hospital" style={{ textDecoration: 'none' }}>
+              <div className="research-card hover-teal">
+                <div className="research-icon">
+                  <Building size={32} />
+                </div>
+                <h3 className="research-title">Virtual Hospital 虛擬醫院建構</h3>
+                <p className="research-summary">
+                  重構未來的醫療學習，透過高度整合的教育生態系，培養學生面對不確定性的決策能力。
+                </p>
+                <div className="research-actions mt-4 text-teal font-semibold flex-center gap-1">
+                  查看專案內容 <ArrowRight size={16} />
                 </div>
               </div>
             </Link>
