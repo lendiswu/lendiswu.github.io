@@ -123,7 +123,6 @@
         "name": "Yueh-Ting Duan",
         "title": "Emergency Nurse Practitioner / Simulation Expert",
         "exp": [
-          "B.S. in Nursing, TMU",
           "Emergency Nurse Practitioner, Taipei Medical University Hospital",
           "ACLS Instructor, Joint Commission",
           "Former SICU & Burn ICU Nurse"
@@ -133,13 +132,15 @@
           "2022-2024 TMUH Team Teaching Innovation Gold Award",
           "2023 NHQA National Healthcare Quality Award (Simulation Category) Excellence",
           "2022, 2026 Outstanding Nurse Practitioner, TMUH"
+        ],
+        "edu": [
+          "B.S. in Nursing, TMU"
         ]
       },
       "xu": {
         "name": "Yi-Ting Hsu",
         "title": "Emergency Nurse Practitioner / Core Faculty of Simulation",
         "exp": [
-          "M.S., Graduate Institute of Injury Prevention and Control, TMU",
           "Emergency Nurse Practitioner, Taipei Medical University Hospital",
           "Core Faculty, Center for Medical Simulation, TMU",
           "Instructor, Clinical Professional Skills Courses, TMU",
@@ -147,34 +148,39 @@
         ],
         "honor": [
           "2022-2024 TMUH Team Teaching Innovation Gold Award"
+        ],
+        "edu": [
+          "M.S., Graduate Institute of Injury Prevention and Control, TMU"
         ]
       },
       "tsai": {
         "name": "Dr. Hung-Wei Tsai",
         "title": "Attending Emergency Physician / Lecturer",
         "exp": [
-          "M.D., Taipei Medical University",
           "Attending Emergency Physician, Taipei Medical University Hospital",
           "Lecturer, Medical Humanities and Education, TMU"
+        ],
+        "edu": [
+          "M.D., Taipei Medical University"
         ]
       },
       "chenHw": {
         "name": "Hui-Wen Chen",
         "title": "Assistant Professor of Nursing / Core Faculty of Simulation",
         "exp": [
-          "Ph.D. / Postdoctoral Researcher, School of Nursing, NYCU",
-          "M.S., Graduate Institute of Injury Prevention and Control, TMU",
           "Assistant Professor, School of Nursing, TMU",
           "Core Faculty, Center for Medical Simulation, TMU",
           "Nurse Practitioner & RN, Dept. of Emergency & Critical Care Medicine, TMUH"
+        ],
+        "edu": [
+          "Ph.D. / Postdoctoral Researcher, School of Nursing, NYCU",
+          "M.S., Graduate Institute of Injury Prevention and Control, TMU"
         ]
       },
       "xuMW": {
         "name": "Min-Wen Hsu",
         "title": "Emergency RN / Clinical Skills Instructor",
         "exp": [
-          "M.S., School of Nursing (Maternal & Child Health), TMU",
-          "B.S., Dept. of Nursing, CGUST",
           "Emergency Room RN, TMU Hospital",
           "Instructor of Clinical Skills Course, TMU"
         ],
@@ -182,13 +188,16 @@
           "111-113 Academic Year TMUH Team Teaching Innovation Gold Award",
           "111 Academic Year TMUH Medical Innovation Proposal Competition - Honorable Mention",
           "111 Academic Year TMUH Outstanding Nursing Staff"
+        ],
+        "edu": [
+          "M.S., School of Nursing (Maternal & Child Health), TMU",
+          "B.S., Dept. of Nursing, CGUST"
         ]
       },
       "huang": {
         "name": "Chao-Chun Huang",
         "title": "Occupational Health RN / Clinical Skills Instructor",
         "exp": [
-          "B.S., School of Nursing, TMU",
           "Occupational Health and Safety RN, Hsiao Chung-Cheng Hospital",
           "Instructor of Clinical Skills Course, TMU",
           "Former Emergency Room RN, TMU Hospital",
@@ -197,14 +206,15 @@
         "honor": [
           "111-112 Academic Year TMUH Team Teaching Innovation Gold Award",
           "2023 Educational Game Design Award - Gamified Instruction Design Silver Award"
+        ],
+        "edu": [
+          "B.S., School of Nursing, TMU"
         ]
       },
       "kang": {
         "name": "Enoch Kang",
         "title": "Assistant Researcher / Director",
         "exp": [
-          "Ph.D. Candidate, Institute of Health Policy and Management, National Taiwan University",
-          "M.Ed., National Dong Hwa University",
           "Assistant Researcher, Department of Education, Taipei Municipal Wanfang Hospital",
           "Director, Medical Education Research Center, Taipei Municipal Wanfang Hospital",
           "Deputy CEO, Cochrane Taiwan, Taipei Medical University",
@@ -215,12 +225,16 @@
         "honor": [
           "2nd Ting-Chu Chao Memorial Award for Excellent Public Health Paper, TPHA",
           "Stanford University's List of World's Top 2% Scientists: 2024 Scientific Impact Ranking"
+        ],
+        "edu": [
+          "Ph.D. Candidate, Institute of Health Policy and Management, National Taiwan University",
+          "M.Ed., National Dong Hwa University"
         ]
       }
     },
     "expLabel": "Current Role & Experience",
     "honorLabel": "Major Honors",
-    "awardLabel": "Awards",
+    "awardLabel": "Awards & Honors",
     "researchTitle": "Research Areas & Outputs",
     "researchDesc": "Click to explore our research roadmap and article abstracts.",
     "r1Title": "Speak Up Behavior Research",
@@ -235,7 +249,8 @@
     "btnViewP": "View Project Details",
     "contactTitle": "Contact Us",
     "contactDesc": "Interested in our research? Or looking for academic and educational collaborations?\nReach out to the GET Team via the options below.",
-    "footer": "© 2026 GET (Growing and Empowering Together) Medical Education & Research Team. All rights reserved."
+    "footer": "© 2026 GET (Growing and Empowering Together) Medical Education & Research Team. All rights reserved.",
+    "eduLabel": "Education"
   },
   "speakup": {
     "title": "Speak Up Behavior Series Research",

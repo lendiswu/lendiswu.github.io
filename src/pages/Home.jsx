@@ -146,13 +146,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.wu.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
-                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.honorLabel')}</h4>
-                <div className="honor-badge">
-                  <span>{t('home.team.wu.honor')}</span>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.wu.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.wu.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.wu.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.wu.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.wu.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.wu.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.wu.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.wu.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
                 </div>
               </div>
             </div>
@@ -169,10 +197,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.chenH.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.chenH.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chenH.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.chenH.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.chenH.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.chenH.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.chenH.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.chenH.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chenH.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -188,10 +247,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.chenHz.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.chenHz.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chenHz.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.chenHz.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.chenHz.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.chenHz.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.chenHz.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.chenHz.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chenHz.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -207,14 +297,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.duan.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
-                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.duan.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.duan.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.duan.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.duan.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.duan.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.duan.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.duan.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.duan.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.duan.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -230,14 +347,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.xu.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
-                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.xu.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.xu.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.xu.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.xu.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.xu.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.xu.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.xu.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.xu.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.xu.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -253,10 +397,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.tsai.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.tsai.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.tsai.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.tsai.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.tsai.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.tsai.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.tsai.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.tsai.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.tsai.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -272,10 +447,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.chenHw.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.chenHw.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chenHw.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.chenHw.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.chenHw.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.chenHw.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.chenHw.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.chenHw.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chenHw.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -291,14 +497,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.xuMW.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
-                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.xuMW.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.xuMW.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.xuMW.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.xuMW.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.xuMW.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.xuMW.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.xuMW.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.xuMW.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.xuMW.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -314,14 +547,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.huang.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
-                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.huang.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.huang.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.huang.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.huang.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.huang.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.huang.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.huang.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.huang.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.huang.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
@@ -337,14 +597,41 @@ export default function Home() {
                 </div>
               </div>
               <div className="card-body">
-                <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.kang.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
-                <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
-                <ul className="member-list">
-                  {t('home.team.kang.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
+                {/* 1. 現職與經歷 */}
+                {t('home.team.kang.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.kang.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.kang.honor', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.kang.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.kang.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.kang.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.kang.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.kang.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
               </div>
             </div>
 
