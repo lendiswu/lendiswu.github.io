@@ -93,12 +93,22 @@
         "title": "Medical Educator / Attending Emergency Physician",
         "exp": [
           "Attending Emergency Physician, Taipei Medical University Hospital",
-          "Director, Center for Clinical Skills / Deputy Director, Center for Medical Simulation, TMU",
+          "Director, Center for Clinical Skills, TMUH",
           "Assistant Professor, Medical Humanities and Education, TMU",
+          "Deputy Director, Center for Medical Simulation, TMU",
           "WISER Research Fellow, Pittsburgh, USA",
           "Certified Healthcare Simulation Educator (CHSE), SSH"
         ],
-        "honor": "🏆 2025 Ta-You Wu Memorial Award (Medical Education), NSTC"
+        "honor": [
+          "2025 Ta-You Wu Memorial Award (Medical Education), NSTC",
+          "2024 University Excellent Teacher, TMU",
+          "2024 Outstanding Teaching Performance Award (2nd Place)",
+          "2023 Excellent Material and Lesson Plan Award (2nd Place), TMU",
+          "2022-2024 TMUH Team Teaching Innovation Gold Award"
+        ],
+        "edu": [
+          "M.D., School of Medicine, Chung Shan Medical University"
+        ]
       },
       "chenH": {
         "name": "Hao-Yu Chen",
@@ -107,7 +117,15 @@
           "Deputy Director, Center for Medical Simulation, TMU",
           "Lead Standardized Patient Trainer, TMU",
           "Practicum Instructor, NTUNHS",
-          "6th Board Member, Association of Standardized Patients, Taiwan"
+          "6th Board Member, Association of Standardized Patients, Taiwan",
+          "Specialist, Simulation Center, TMU",
+          "OSCE Research Specialist, TNNPA"
+        ],
+        "honor": [],
+        "edu": [
+          "M.S., Dept of Healthcare Education and E-Learning, NTUNHS",
+          "M.S., Graduate Institute of Sports Science, NTSU",
+          "B.S., Dept of Healthcare Management, NTUNHS"
         ]
       },
       "chenHz": {
@@ -116,7 +134,13 @@
         "exp": [
           "Administrator, Center for Medical Simulation, TMU",
           "Standardized Patient Trainer, TMU",
-          "Board Member, Association of Standardized Patients, Taiwan"
+          "Board Member, Association of Standardized Patients, Taiwan",
+          "Clerk, Dept of Education, TMUH"
+        ],
+        "honor": [],
+        "edu": [
+          "M.S., Dept of Healthcare Education and E-Learning, NTUNHS",
+          "B.S., Health Care Administration, TMU"
         ]
       },
       "duan": {
@@ -129,12 +153,12 @@
         ],
         "honor": [
           "2025 Top 10 Outstanding Emergency Nurses, TSEMM",
-          "2022-2024 TMUH Team Teaching Innovation Gold Award",
+          "2026, 2022 Outstanding Nurse Practitioner, TMUH",
           "2023 NHQA National Healthcare Quality Award (Simulation Category) Excellence",
-          "2022, 2026 Outstanding Nurse Practitioner, TMUH"
+          "2022-2024 TMUH Team Teaching Innovation Gold Award"
         ],
         "edu": [
-          "B.S. in Nursing, TMU"
+          "B.S., School of Nursing, TMU"
         ]
       },
       "xu": {
@@ -150,7 +174,8 @@
           "2022-2024 TMUH Team Teaching Innovation Gold Award"
         ],
         "edu": [
-          "M.S., Graduate Institute of Injury Prevention and Control, TMU"
+          "M.S., Graduate Institute of Injury Prevention and Control, TMU",
+          "B.S., School of Nursing, TMU"
         ]
       },
       "tsai": {
@@ -160,6 +185,7 @@
           "Attending Emergency Physician, Taipei Medical University Hospital",
           "Lecturer, Medical Humanities and Education, TMU"
         ],
+        "honor": [],
         "edu": [
           "M.D., Taipei Medical University"
         ]
@@ -169,11 +195,13 @@
         "title": "Assistant Professor of Nursing / Core Faculty of Simulation",
         "exp": [
           "Assistant Professor, School of Nursing, TMU",
+          "Postdoctoral Researcher, School of Nursing, NYCU",
           "Core Faculty, Center for Medical Simulation, TMU",
           "Nurse Practitioner & RN, Dept. of Emergency & Critical Care Medicine, TMUH"
         ],
+        "honor": [],
         "edu": [
-          "Ph.D. / Postdoctoral Researcher, School of Nursing, NYCU",
+          "Ph.D., School of Nursing, NYCU",
           "M.S., Graduate Institute of Injury Prevention and Control, TMU"
         ]
       },
@@ -191,7 +219,8 @@
         ],
         "edu": [
           "M.S., School of Nursing (Maternal & Child Health), TMU",
-          "B.S., Dept. of Nursing, CGUST"
+          "B.S., Dept. of Nursing, CGUST",
+          "A.S., Dept. of Nursing, CTPC"
         ]
       },
       "huang": {
@@ -200,15 +229,16 @@
         "exp": [
           "Occupational Health and Safety RN, Hsiao Chung-Cheng Hospital",
           "Instructor of Clinical Skills Course, TMU",
-          "Former Emergency Room RN, TMU Hospital",
-          "Former COVID-19 Epidemic Care RN, Taipei City"
+          "Former COVID-19 Epidemic Care RN, Taipei City",
+          "Former Emergency Room RN, TMU Hospital"
         ],
         "honor": [
           "111-112 Academic Year TMUH Team Teaching Innovation Gold Award",
           "2023 Educational Game Design Award - Gamified Instruction Design Silver Award"
         ],
         "edu": [
-          "B.S., School of Nursing, TMU"
+          "B.S., School of Nursing, TMU",
+          "Kobe YMCA College Japanese Dept."
         ]
       },
       "kang": {
@@ -224,7 +254,8 @@
         ],
         "honor": [
           "2nd Ting-Chu Chao Memorial Award for Excellent Public Health Paper, TPHA",
-          "Stanford University's List of World's Top 2% Scientists: 2024 Scientific Impact Ranking"
+          "Stanford University's List of World's Top 2% Scientists: 2024 Scientific Impact Ranking",
+          "Guest Speaker for numerous nursing associations, hospitals and academic centers"
         ],
         "edu": [
           "Ph.D. Candidate, Institute of Health Policy and Management, National Taiwan University",
@@ -233,7 +264,7 @@
       }
     },
     "expLabel": "Current Role & Experience",
-    "honorLabel": "Major Honors",
+    "honorLabel": "Awards & Honors",
     "awardLabel": "Awards & Honors",
     "researchTitle": "Research Areas & Outputs",
     "researchDesc": "Click to explore our research roadmap and article abstracts.",
