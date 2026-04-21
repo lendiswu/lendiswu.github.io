@@ -157,7 +157,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.wu.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.wu.honor', { returnObjects: true, defaultValue: null }) && t('home.team.wu.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.wu.honor', { returnObjects: true })) ? (
@@ -207,7 +207,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.chenH.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.chenH.honor', { returnObjects: true, defaultValue: null }) && t('home.team.chenH.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.chenH.honor', { returnObjects: true })) ? (
@@ -257,7 +257,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.chenHz.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.chenHz.honor', { returnObjects: true, defaultValue: null }) && t('home.team.chenHz.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.chenHz.honor', { returnObjects: true })) ? (
@@ -307,7 +307,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.duan.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.duan.honor', { returnObjects: true, defaultValue: null }) && t('home.team.duan.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.duan.honor', { returnObjects: true })) ? (
@@ -357,7 +357,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.xu.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.xu.honor', { returnObjects: true, defaultValue: null }) && t('home.team.xu.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.xu.honor', { returnObjects: true })) ? (
@@ -407,7 +407,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.tsai.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.tsai.honor', { returnObjects: true, defaultValue: null }) && t('home.team.tsai.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.tsai.honor', { returnObjects: true })) ? (
@@ -457,7 +457,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.chenHw.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.chenHw.honor', { returnObjects: true, defaultValue: null }) && t('home.team.chenHw.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.chenHw.honor', { returnObjects: true })) ? (
@@ -507,7 +507,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.xuMW.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.xuMW.honor', { returnObjects: true, defaultValue: null }) && t('home.team.xuMW.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.xuMW.honor', { returnObjects: true })) ? (
@@ -557,7 +557,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.huang.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.huang.honor', { returnObjects: true, defaultValue: null }) && t('home.team.huang.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.huang.honor', { returnObjects: true })) ? (
@@ -607,7 +607,7 @@ export default function Home() {
                 )}
 
                 {/* 2. 得獎與殊榮 */}
-                {t('home.team.kang.honor', { returnObjects: true, defaultValue: null }) && (
+                {t('home.team.kang.honor', { returnObjects: true, defaultValue: null }) && t('home.team.kang.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
                     {Array.isArray(t('home.team.kang.honor', { returnObjects: true })) ? (
