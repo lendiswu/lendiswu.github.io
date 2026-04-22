@@ -266,6 +266,17 @@
           "Ph.D. Candidate, Institute of Health Policy and Management, National Taiwan University",
           "M.Ed., National Dong Hwa University"
         ]
+      },
+      "chenYu": {
+        "name": "Dr. Yu Chen",
+        "title": "Attending Emergency Physician",
+        "exp": [
+          "Attending Emergency Physician, Taipei Medical University Hospital"
+        ],
+        "honor": [],
+        "edu": [
+          "M.D., Taipei Medical University"
+        ]
       }
     },
     "expLabel": "Current Role & Experience",
