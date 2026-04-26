@@ -91,7 +91,7 @@ const achievementsData = [
     category: '國家級獎項',
     enCategory: 'National & Regional Awards',
     enTitle: 'Ta-You Wu Memorial Award',
-    file: '/achievements/國家:區域獎項/校官網-114年度吳大猷先生紀念獎獲獎人.pdf',
+    file: '/achievements/國家:區域獎項/2025 吳人傑 國科會吳大猷紀念獎 醫學教育學門.pdf',
     type: 'pdf'
   },
   {
