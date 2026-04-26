@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Globe, Award, FileText, Image as ImageIcon, X, ExternalLink, ChevronRight, Trophy, GraduationCap, Building, Star, Lightbulb } from 'lucide-react';
@@ -214,6 +214,17 @@ export default function Achievements() {
 
   const isZh = i18n.language === 'zh';
 
+  useEffect(() => {
+    if (selectedItem) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [selectedItem]);
+
   const displayedItems = useMemo(() => {
     if (!selectedCategory) return [];
     return achievementsData.filter(item => item.category === selectedCategory);
@@ -351,7 +362,7 @@ export default function Achievements() {
                 />
               ) : (
                 <iframe 
-                  src={encodeURI(selectedItem.file)} 
+                  src={`${encodeURI(selectedItem.file)}#view=Fit`} 
                   title={isZh ? selectedItem.title : selectedItem.enTitle}
                 />
               )}

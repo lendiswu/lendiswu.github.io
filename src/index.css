@@ -916,6 +916,7 @@ button {
 
 .modal-body {
   flex: 1;
+  min-height: 0;
   background: #e2e8f0;
   overflow: hidden;
   display: flex;
