@@ -772,5 +772,189 @@ button {
 @media (max-width: 768px) {
   .article-content-grid {
     grid-template-columns: 1fr;
+}
+
+/* Achievements Page */
+.achievements-list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.achievement-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+  border-color: var(--color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.achievement-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.achievement-year {
+  background: var(--color-bg-teal-50);
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  border: 1px solid var(--color-bg-teal-100);
+  min-width: 100px;
+  text-align: center;
+}
+
+.achievement-info h3 {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 1.15rem;
+  margin-bottom: 4px;
+}
+
+.achievement-category {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.achievement-icon {
+  color: var(--color-text-light);
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  padding: 24px;
+}
+
+.modal-content {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg-light);
+}
+
+.modal-title-group h3 {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--color-text-main);
+}
+
+.modal-subtitle {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.modal-btn {
+  padding: 8px;
+  border-radius: 50%;
+  color: var(--color-text-muted);
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-btn:hover {
+  background: #e2e8f0;
+  color: var(--color-text-main);
+}
+
+.modal-btn.primary {
+  color: var(--color-primary-dark);
+}
+
+.modal-btn.primary:hover {
+  background: var(--color-bg-teal-50);
+}
+
+.modal-body {
+  flex: 1;
+  background: #e2e8f0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.modal-body img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+}
+
+.modal-body iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: white;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 768px) {
+  .achievement-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .achievement-year {
+    min-width: auto;
+    padding: 4px 12px;
+  }
+  .modal-overlay {
+    padding: 12px;
+  }
+  .modal-content {
+    height: 95vh;
   }
 }

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import SpeakUpResearch from './pages/SpeakUpResearch';
 import SimulationResearch from './pages/SimulationResearch';
 import VirtualHospital from './pages/VirtualHospital';
+import Achievements from './pages/Achievements';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/research/speak-up" element={<SpeakUpResearch />} />
         <Route path="/research/simulation" element={<SimulationResearch />} />
         <Route path="/projects/virtual-hospital" element={<VirtualHospital />} />
+        <Route path="/achievements" element={<Achievements />} />
       </Routes>
     </HashRouter>
   );

@@ -160,15 +160,11 @@ export default function Home() {
                 {t('home.team.wu.honor', { returnObjects: true, defaultValue: null }) && t('home.team.wu.honor', { returnObjects: true }).length > 0 && (
                   <>
                     <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
-                    {Array.isArray(t('home.team.wu.honor', { returnObjects: true })) ? (
-                      <ul className="member-list">
-                        {t('home.team.wu.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
-                      </ul>
-                    ) : (
-                      <div className="honor-badge">
-                        <span>{t('home.team.wu.honor')}</span>
+                    <Link to="/achievements" style={{ textDecoration: 'none', display: 'inline-block', width: '100%' }}>
+                      <div className="honor-badge" style={{ backgroundColor: 'var(--color-primary)', borderColor: 'var(--color-primary-dark)', color: 'white', textAlign: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', transition: 'all 0.3s' }}>
+                        <Award size={18} /> <span>點擊查看完整榮譽與獎項紀錄</span>
                       </div>
-                    )}
+                    </Link>
                   </>
                 )}
 

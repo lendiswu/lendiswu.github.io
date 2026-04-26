@@ -5,7 +5,8 @@
     "team": "團隊成員",
     "research": "研究領域",
     "vision": "團隊願景",
-    "contact": "聯絡我們"
+    "contact": "聯絡我們",
+    "achievements": "榮譽與獎項"
   },
   "vh": {
     "title": "北醫大虛擬醫院建構",
@@ -298,6 +299,12 @@
     "contactDesc": "對我們的研究計畫有興趣？或期望進行學術與教學合作？\n歡迎透過下方資訊與 GET 團隊取得聯繫。",
     "footer": "© 2026 GET (Growing and Empowering Together) Medical Education & Research Team. All rights reserved.",
     "eduLabel": "學歷"
+  },
+  "achievements": {
+    "title": "榮譽與獎項",
+    "desc": "團隊成員在醫療教學、創新研發與臨床服務上的傑出成果紀錄。",
+    "previewText": "點擊項目即可預覽證書或獎狀",
+    "close": "關閉"
   },
   "speakup": {
     "title": "Speak Up 發聲行為系列研究",

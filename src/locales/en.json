@@ -5,7 +5,8 @@
     "team": "Our Team",
     "research": "Research",
     "vision": "Vision",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "achievements": "Achievements"
   },
   "vh": {
     "title": "TMU Virtual Hospital",
@@ -298,6 +299,12 @@
     "contactDesc": "Interested in our research? Or looking for academic and educational collaborations?\nReach out to the GET Team via the options below.",
     "footer": "© 2026 GET (Growing and Empowering Together) Medical Education & Research Team. All rights reserved.",
     "eduLabel": "Education"
+  },
+  "achievements": {
+    "title": "Honors & Achievements",
+    "desc": "Outstanding records of the team members in medical teaching, innovation, and clinical services.",
+    "previewText": "Click on an item to preview the certificate",
+    "close": "Close"
   },
   "speakup": {
     "title": "Speak Up Behavior Series Research",
