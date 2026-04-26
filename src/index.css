@@ -772,6 +772,7 @@ button {
 @media (max-width: 768px) {
   .article-content-grid {
     grid-template-columns: 1fr;
+  }
 }
 
 /* Achievements Page */
