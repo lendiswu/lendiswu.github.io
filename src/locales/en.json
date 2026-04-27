@@ -278,6 +278,18 @@
         "edu": [
           "M.D., Taipei Medical University"
         ]
+      },
+      "chiou": {
+        "name": "Dr. Yu-Juei Chiou",
+        "title": "Attending Emergency Physician / ICU Director",
+        "exp": [
+          "Attending Emergency Physician, Taipei Medical University Hospital",
+          "Director, Intensive Care Unit 1, Taipei Medical University Hospital"
+        ],
+        "honor": [],
+        "edu": [
+          "M.D., School of Medicine, Taipei Medical University"
+        ]
       }
     },
     "expLabel": "Current Role & Experience",

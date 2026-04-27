@@ -683,6 +683,56 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Team Member: 邱禹睿 */}
+            <div className="team-card glass-card hover-lift">
+              <div className="card-header">
+                <div className="avatar" style={{ overflow: 'hidden' }}>
+                  <img src="/chiou_profile.jpg" alt={t('home.team.chiou.name')} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }} />
+                </div>
+                <div>
+                  <h3 className="member-name">{t('home.team.chiou.name')}</h3>
+                  <p className="member-title">{t('home.team.chiou.title')}</p>
+                </div>
+              </div>
+              <div className="card-body">
+                {/* 1. 現職與經歷 */}
+                {t('home.team.chiou.exp', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2"><Award size={16} /> {t('home.expLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chiou.exp', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+
+                {/* 2. 得獎與殊榮 */}
+                {t('home.team.chiou.honor', { returnObjects: true, defaultValue: null }) && t('home.team.chiou.honor', { returnObjects: true }).length > 0 && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><Award size={16} /> {t('home.awardLabel')}</h4>
+                    {Array.isArray(t('home.team.chiou.honor', { returnObjects: true })) ? (
+                      <ul className="member-list">
+                        {t('home.team.chiou.honor', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                      </ul>
+                    ) : (
+                      <div className="honor-badge">
+                        <span>{t('home.team.chiou.honor')}</span>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {/* 3. 學歷 */}
+                {t('home.team.chiou.edu', { returnObjects: true, defaultValue: null }) && (
+                  <>
+                    <h4 className="body-subtitle flex-center gap-2 mt-4"><GraduationCap size={16} /> {t('home.eduLabel')}</h4>
+                    <ul className="member-list">
+                      {t('home.team.chiou.edu', { returnObjects: true }).map((item, i) => <li key={i}>{item}</li>)}
+                    </ul>
+                  </>
+                )}
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
